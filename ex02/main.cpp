@@ -19,7 +19,7 @@ int	main(void)
 	std::cout << "\n=== int array (n=5, default init) ===" << std::endl;
 	Array<int>	ints(5);
 	std::cout << "size = " << ints.size() << std::endl;
-	printArray(ints);  // Doit afficher des 0 (initialisation par défaut)
+	printArray(ints);
 
 	std::cout << "\n=== Fill and access ===" << std::endl;
 	for (unsigned int i = 0; i < ints.size(); i++)
